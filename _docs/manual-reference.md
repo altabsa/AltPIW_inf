@@ -1,6 +1,6 @@
 ---
 title: "Spis funkcji"
-permalink: /docs/manual-reference/
+permalink: /docs/manual-user/
 excerpt: "Dokumetacja SAKOL - spis funkcji systemu"
 ---
 
