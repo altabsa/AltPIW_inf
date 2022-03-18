@@ -1,13 +1,13 @@
 ---
 title: "Informacje ogólne"
 permalink: /docs/manual-intro/
-excerpt: "Dokumetacja SAKOL - platformy Low-Code dla Twojego biznesu"
+excerpt: "Dokumetacja AltPIW - Bankwość Elektroniczna"
 ---
 
 # Wstęp
  - Dla kogo ta część
  - Wymagania dla projektanta
- - Krótki opis założeń dla systemu SAKOL. 
+ - Krótki opis założeń dla AltPIW. 
 
 # Platforma Low-Code
 
@@ -32,13 +32,8 @@ Opis struktury aplikacji wchodzących w sklad systemu SAKOL
 # Instalacja
 [Instrukcja instalacji](../manual-install/)
 
-# Projektowanie aplikacji
-- opis proccesu projektowania aplikacji.
-- określenie typów aplikacji (bazujace na strukturze dokument linie, projektowane "od zera")
-- określenie struktury (klasa - formatka - addon)
+# Praca z programem 
+[Podręcznik funkcji systemu](../manual-user/)
 
-# Projekt "ZZ-PZ - Przyjęcie z Zamówienia"
-- opis projektu aplikacji którą będziemy robić w całym helpie.
-
-# Funkcjonalności 
-[Podręcznik funkcji systemu](../manual-reference/)
+# Administracja
+[Podręcznik administratora](../manual-admin/)
