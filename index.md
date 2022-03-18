@@ -27,7 +27,7 @@ feature_row:
     alt: "usermanual"
     title: "User Manual"
     excerpt: "Podręcznik uzytkownika końcowego"
-    url: "/manual-user/"
+    url: "/docs/manual-user/"
     btn_class: "btn--primary"
     btn_label: "Więcej"
 ---
