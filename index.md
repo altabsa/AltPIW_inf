@@ -6,28 +6,28 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/sakolhdr2.jpg
 excerpt: >
-  Platforma Low-Code do zastosowań biznesowych<br />
-  <small>Wersja 3.2</small>
+  Addon SBO - Bankowosc elektroniczna<br />
+  <small>Wersja 3.8</small>
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "gettingstarted"
     title: "Informacje ogólne"
-    excerpt: "Informacje ogólne o platformie SAKOL oraz podręcznik instalacji systemu"
+    excerpt: "Informacje ogólne o aplikacji oraz podręcznik instalacji"
     url: "/docs/manual-intro/"
     btn_class: "btn--primary"
     btn_label: "Więcej"
   - image_path: /assets/images/mm-responsive-feature.png
-    alt: "functions"
+    alt: "adminmanual"
     title: "Manual"
-    excerpt: "Podręcznik dla administratora i projektanta rozwiązań"
-    url: "/docs/manual-reference/"
+    excerpt: "Podręcznik dla konsultanta"
+    url: "/docs/manual-admin/"
     btn_class: "btn--primary"
     btn_label: "Więcej"
   - image_path: /assets/images/mm-free-feature.png
-    alt: "samples"
-    title: "Przykłady"
-    excerpt: "Zbiór przykładów  aplikacji stworzonych przy użyciu platformy SAKOL"
-    url: "/samples/"
+    alt: "usermanual"
+    title: "User Manual"
+    excerpt: "Podręcznik uzytkownika końcowego"
+    url: "/manual-user/"
     btn_class: "btn--primary"
     btn_label: "Więcej"
 ---
