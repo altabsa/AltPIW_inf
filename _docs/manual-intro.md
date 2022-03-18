@@ -14,6 +14,8 @@ excerpt: "Dokumetacja AltPIW - Bankwość Elektroniczna"
 Lista funkcji systemu 
   - Generowanie paczek
   - Rozliczanie wyciągów z pliku
+  - Rozliczanie wyciągów przez INGWebService
+  - Obsługa SplitPayment
   - Wczytywanie listy banków
   - itp
 
