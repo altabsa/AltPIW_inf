@@ -1,7 +1,7 @@
 # Projekt dokumentacji aplikacji AltPIW
 
 **!!! Uwaga !!!**
-Proszę edytowac pliki tylko w katalogu `_docs` i `_samples`!!!
+Proszę edytowac pliki tylko w katalogu `_docs` !!!
 
 :exclamation: Inne pliki są wazne dla wygladu strony i nie nalezy ich ruszać :exclamation: 
 
