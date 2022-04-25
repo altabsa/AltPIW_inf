@@ -1,22 +1,46 @@
 ---
 title: "Instalacja"
 permalink: /docs/manual-install/
-excerpt: "Dokumetacja SAKOL - instrukcja instalacji"
+excerpt: "Dokumetacja ALTPiw - instrukcja instalacji"
 ---
 
-# Architektura aplikacji
-Poniżej przedstawiony został schemat aplikacji SAKOL. Aplikacja SAKOL składa się z Aplikacji na urządzenie z systemem Android, która może być również obsługiwana przez stronę WWW, Panelu administracyjnego SAKOL_ADMIN, SAKOL3 Data Service, czyli usługi która jest odpowiedzialna za działanie aplikacji SAKOL oraz wymianę danych. Aplikacja SAKOL ściśle współpracuje z aplikacją XDTW, poprzez XDTW następuje wymiana danych oraz synchronizacja dokumentów z bazą SAP. 
+# Instalacja ALTPiw
 
-![image](https://user-images.githubusercontent.com/93259107/144219348-7c4014b1-b5a0-4d63-8fd9-09b2ffb5db86.png)
+Instalacja ALTPiw odbywa się w taki sam sposób jak każdego innego AddOnu w SAP. 
 
-# Instalacja SAKOL DataService
-## Instalacja bazy danych
+Na tą chwilę istnieją trzy możliwości dodania AddOnu z SAP
 
-Baza danych SAKOL3 działa na silniku SQL. Na początek instalacji SAKOL odtwarzamy pustą bazę w Management Studio
+1. Uruchom aplikację
 
-![image](https://user-images.githubusercontent.com/93259107/144235718-c351084f-6db9-4970-9fc2-92f2c1125ebe.png)
+   ![image](https://user-images.githubusercontent.com/104000700/164240180-26f72303-f81d-4b46-9ef0-3fe3a46b915e.png)
 
-![image](https://user-images.githubusercontent.com/93259107/144236015-f14b38f0-e7a9-40d7-9c82-78ba69e15c9f.png)
+2. Administracja -> Add On -> Menadżer Add On
+
+   ![image](https://user-images.githubusercontent.com/104000700/164240594-a34ec28e-fd78-46c8-9fa4-5a9b4237046e.png)
+
+   https://<Server Address>:<Port>/ExtensionManager
+
+   ![image](https://user-images.githubusercontent.com/104000700/164241145-932f9564-cad9-43ea-9211-d97c1c649f87.png)
+   
+3. Administracja -> Add On -> Administracja Add On
+ 
+   ![image](https://user-images.githubusercontent.com/104000700/164240037-1e218996-869c-49f9-a4cb-7eeb1b81d28b.png)
+
+Na serwerze powinien znajdować się katalog z AddOnem, w któym będzie przechowywana jego aktualna wersja oraz ewentualne kopie oraz pliki .zip i .ard.
+Zazwyczaj znajduje się on w lokalizacji C:\Altab\ALTPIW\. Jeśli nie będzie takiego katalogu nalezy go utworzyć zgodnie z poniższą strukturą
+ 
+C:\Altab\ALTPIW\\[*wersja*]\\[*wersja aplikacji*]
+ 
+*wersja* - np. 3.8.2.1
+ 
+*wersja aplikacji* - np. x64 lub x32 
+
+**Uwaga!!!**
+ 
+**Nowe wersje AddOnu występują tylko w wersji 64-bit**
+ 
+
+
 
 
 ## Instalacja usługi
